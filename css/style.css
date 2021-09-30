@@ -25,6 +25,7 @@ caption{
 /*END STARTER CODE*/
 
 body{
+  font-family: 'Andika', 'sans-sarif';
   color: #000000;
   font-size: 16px;
   margin: 1.2em;
@@ -32,10 +33,9 @@ body{
   background-position: center;
 
   /*Req 1*/
-  font-family: 'Andika', 'sans-sarif';
   background-image: url("../images/pigeon-background.JPEG");
-  background-color: #DDDDDD
-  
+  background-color: #DDDDDD;
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -49,7 +49,7 @@ h1{
 }
 
 p{
-  padding-top: 15px;
+  padding-top: 15px 0 0 0;
 }
 
 a{
@@ -81,11 +81,11 @@ tr:nth-child(odd) {
 
 .colhead{
   color: #FFFFFF;
-  background-color: #7e0825;
   min-width: 125px;
   padding: 10px;
   text-align: center;
   text-transform: uppercase;
+  background-color: #7e0825;
 }
 
 .rowhead{
