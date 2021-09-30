@@ -68,6 +68,7 @@ a{
 td{
   border-top: 2px solid black;
   padding: 10px;
+  text-align: center;
 }
 
 tr:nth-child(even) {
@@ -91,6 +92,7 @@ tr:nth-child(odd) {
   border: 2px solid black;
   border-left: none;
   border-bottom: none;
+  vertical-align: middle;
 }
 
 
@@ -134,4 +136,5 @@ footer{
   min-height: 75px;
   position: fixed;
   bottom: 0;
+  left: 0;
 }
