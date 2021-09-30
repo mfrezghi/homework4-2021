@@ -66,30 +66,61 @@ a{
 
 
 td{
-  
+  border-top: 2px solid black;
+  padding: 10px;
 }
 
+tr:nth-child(even) {
+  background: #D1D1D1
+}
+
+tr:nth-child(odd) {
+  background: transparent;
+}
 
 .colhead{
   color: #FFFFFF;
-
+  background-color: #7e0825;
+  min-width: 125px;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .rowhead{
-
+  border: 2px solid black;
+  border-left: none;
+  border-bottom: none;
 }
 
 
 table{
-    border: 5px solid #000000;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50px;
+  border: 5px solid #000000;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50px;
+}
+
+tr:hover {
+  background: rgba(126, 8, 37, 0.25);
 }
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
-thead tr:first-child th:first-child{}
+
+thead tr:first-child th:first-child{
+  border-top-left-radius: 50px;
+
+}
+thead tr:first-child th:last-child{
+  border-top-right-radius: 50px;
+}
+tbody tr:last-child th:first-child{
+  border-bottom-left-radius: 50px;
+}
+tbody tr:last-child td:last-child{
+  border-bottom-right-radius: 50px;
+}
 
 /*Add selectors and rules here*/
 
@@ -100,4 +131,7 @@ footer{
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  min-height: 75px;
+  position: fixed;
+  bottom: 0;
 }
