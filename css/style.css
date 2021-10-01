@@ -94,9 +94,6 @@ table{
   overflow: hidden;
 }
 
-tr:hover {
-  background: rgba(126, 8, 37, 0.25);
-}
 
 /* I gave you the selector, but not the property-value pair. 
 You can use Inspect Element or your editor to find selectors. */
@@ -121,6 +118,10 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background: transparent;
+}
+
+tr:hover {
+  background: rgba(126, 8, 37, 0.25);
 }
 
 th{
